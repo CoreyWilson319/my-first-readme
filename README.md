@@ -68,7 +68,6 @@ const handleWin = (letter) => {
 |clearButton| Holds the button from the html as the variable|
 
 
-pickup on line 178
 |Functions|Act|
 |---|---|
 |checkXWin| Checks if the boxes have a value of true and if 3 are true that would win an alert should say who won|
