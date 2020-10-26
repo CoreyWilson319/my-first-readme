@@ -68,7 +68,6 @@ const handleWin = (letter) => {
 |clearButton| Holds the button from the html as the variable|
 
 
-#Functions
 pickup on line 178
 |Functions|Act|
 |---|---|
