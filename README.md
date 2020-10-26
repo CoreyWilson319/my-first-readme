@@ -59,3 +59,23 @@ const handleWin = (letter) => {
 | ------------ | ------------ |
 | `handleWin()` | Handle the win of either player |
 | `checkGameStatus()` | Check the status after each turn |
+
+#Variables
+|Variables|Value|
+|---|---|
+|windCondX(1-8)| Holds an array for each box that must have a character in order to win|
+|windCondO(1-8)| Holds an array for each box that must have a character in order to win|
+|clearButton| Holds the button from the html as the variable|
+
+
+#Functions
+pickup on line 178
+|Functions|Act|
+|---|---|
+|checkXWin| Checks if the boxes have a value of true and if 3 are true that would win an alert should say who won|
+|checkOWin| Checks if the boxes have a value of true and if 3 are true that would win an alert should say who won|
+|click|Every time a box is clicked the players will switch off and win conditions are checked to see if there is a winner|
+|clear|When clear button is clicked all boxes are set to a blank string
+|setO|Is what is used to play an O|
+|setX|Is what is used to place an X|
+|clickForWin|Displays a message if there has been a winner|
